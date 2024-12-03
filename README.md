@@ -1,2 +1,0 @@
-# zkzk_back
-backend
