@@ -4,7 +4,7 @@ db.sqlite3
 *.pyo
 *.pyd
 
-images/
-__pycache__/
-venv/
-__migrations__/
+images
+__pycache__
+venv
+__migrations__
