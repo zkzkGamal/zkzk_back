@@ -45,3 +45,9 @@ class notifySerializer(serializers.ModelSerializer):
     class Meta:
         model = notify_user
         fields = '__all__' 
+
+class my_resumeSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = my_resume
+        fields = '__all__'
+    

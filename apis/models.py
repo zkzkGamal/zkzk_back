@@ -92,3 +92,6 @@ class notify_user(models.Model):
     created = models.DateTimeField(auto_now_add=True, null=True, blank=True)
     user = models.ForeignKey(User , on_delete=models.CASCADE ,null=True, blank=True)
     text = models.TextField(null=True , blank=True)
+
+class my_resume(models.Model):
+    resume = models.FileField(upload_to='images/resume/', null=True, blank=True)
